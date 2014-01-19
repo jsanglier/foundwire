@@ -1,0 +1,257 @@
+/**
+
+Site Specifc CSS
+
+This is for layout information additional to Foundation or for overriding certain CSS
+
+
+**/
+
+
+
+.wrapper{
+	background: #f4f4f4;
+}
+/* Header Stuff */
+header {
+background: #4b9eef; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiOWVlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5NmRmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #4b9eef 0%, #96dfff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4b9eef), color-stop(100%,#96dfff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4b9eef 0%,#96dfff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4b9eef 0%,#96dfff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4b9eef 0%,#96dfff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4b9eef 0%,#96dfff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b9eef', endColorstr='#96dfff',GradientType=0 ); /* IE6-8 */
+height: 100px;
+
+}
+header h2 {
+	color: #fff;
+	line-height: 80px;
+}
+
+
+/* Home Slideshow Row */
+
+div.slideshow {
+	padding-top: 20px;
+}
+
+div.slideshow .orbit-caption h3 {
+	color: #fff;
+}
+
+/* Main Row */
+
+div.mainrow {
+	padding-top: 20px;
+}
+
+/* Footer */
+
+.footer {
+	background: #4A629C;
+	height: 100%;
+	padding-top: 20px;
+	color: #aaa;
+}
+
+
+/* Small screens */
+@media only screen { /* Define mobile styles */
+
+}
+
+@media only screen and (max-width: 40em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+header h2 {
+	color: #fff;
+	line-height: 35px;
+	margin-top: 20px;
+
+}
+}
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) { /* min-width 641px, medium screens */
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+}
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) { /* min-width 1025px, large screens */
+
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+}
+
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) { /* min-width 1441px, xlarge screens */
+
+}
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+}
+
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) { /* min-width 1921px, xlarge screens */
+
+}
+
+/**
+ * ProcesssWire.com site template stylesheet. 
+
+This contains a few specific styles that ProcessWire finds useful
+
+
+ */
+
+
+
+/**
+ *  edit link that appears when you are logged in.
+ * It is recommended that you implement an edit button 
+ * in your templates to make it easy to switch to and
+ * from the admin control panel when editing pages. 
+ *
+ */
+#editpage {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	padding: 5px 6px; 
+	background: #db1174; 
+	color: #fff; 
+	display: block;
+	font-weight: bold; 
+}
+	#editpage:hover {
+		background: #ffffcc;
+		color: #000; 
+	}
+
+
+/**
+ * Alignment styles that are used by the InputfieldTinyMCE for 
+ * positioning images in bodycopy. If you are using this field type, 
+ * you may want to include these or similar styles in your site.
+ *
+ */
+.align_left {
+        float: left;
+        margin: 0 1em 0.25em 0;
+}
+
+.align_right {
+        float: right;
+        margin: 0 0 0.25em 1em;
+}
+
+.align_center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+/**
+ * Optional CSS classes specific to the FieldtypeComments module
+ * when used in this site design template. 
+ *
+ */
+
+#content .CommentList {
+	margin: 1em 0 0 0; 
+}
+
+	#content .CommentListItem {
+		list-style: none; 
+		margin: 0;
+		border-left: 5px solid #ddd; 
+		border-top: 1px dotted #ccc; 
+		padding: 1em 0 1px 1em; 
+		background: #fff; 
+		
+	}
+		#content .CommentListItem p {
+			margin-top: 0; 
+		}
+		#content .CommentHeader,
+		#CommentForm label {
+			margin: 0; 
+			font-weight: bold; 
+			font-size: 11px; 
+			text-transform: uppercase; 
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+			color: #3786bc; 
+		}
+		#content .CommentText {
+			color: #666; 
+		}
+
+#CommentForm { }
+
+	#CommentForm h3 {
+		margin: 0; 
+		border: none; 
+	}
+
+	#CommentForm label {
+		display: block;
+		color: #f00076; 
+		color: #999; 
+	}
+
+	#CommentForm p {
+		margin: 0.5em 0;
+	}
+
+	.CommentForm_cite,
+	.CommentForm_email {
+		float: left; 
+	}
+		.CommentForm_cite input,
+		.CommentForm_email input {
+			width: 200px; 
+			margin-right: 1em; 
+		}
+
+	.CommentForm_text {
+		clear: left; 
+	}
+		.CommentForm_text textarea {
+			padding: 2px; 
+			width: 75%; 
+			height: 100px; 
+		}
+
+	#CommentForm .error {
+		background: #a30000; 
+		color: #fff; 
+		padding: 0.25em 0.5em; 
+	}
+	#CommentForm .success {
+		font-weight: bold; 	
+	}
+
+
+/**
+ * WireFatalError is a class that ProcessWire will use to output
+ * fatal errors in the design, but only if debug mode is on, or if
+ * you are logged in as a superuser. 
+ *
+ */
+.WireFatalError {
+	background: #a30000; 
+	color: #fff; 
+	padding: 1em; 
+	position: relative;
+	z-index: 9999;
+}
+

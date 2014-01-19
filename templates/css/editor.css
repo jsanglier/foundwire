@@ -1,0 +1,221 @@
+/* These are some basic styles taken from Foundation.css 
+purely to make the TinyMCE editor more in keeping with the 
+site style */
+
+a {
+  color: #008cba;
+  text-decoration: none;
+  line-height: inherit;
+}
+/* line 157, ../scss/foundation/components/_type.scss */
+a:hover, a:focus {
+  color: #0078a0;
+}
+/* line 159, ../scss/foundation/components/_type.scss */
+a img {
+  border: none;
+}
+
+/* Default paragraph styles */
+/* line 163, ../scss/foundation/components/_type.scss */
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
+/* line 171, ../scss/foundation/components/_type.scss */
+p.lead {
+  font-size: 1.21875rem;
+  line-height: 1.6;
+}
+/* line 173, ../scss/foundation/components/_type.scss */
+p aside {
+  font-size: 0.875rem;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+/* Default header styles */
+/* line 181, ../scss/foundation/components/_type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+/* line 191, ../scss/foundation/components/_type.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-size: 60%;
+  color: #6f6f6f;
+  line-height: 0;
+}
+
+/* line 198, ../scss/foundation/components/_type.scss */
+h1 {
+  font-size: 2.125rem;
+}
+
+/* line 199, ../scss/foundation/components/_type.scss */
+h2 {
+  font-size: 1.6875rem;
+}
+
+/* line 200, ../scss/foundation/components/_type.scss */
+h3 {
+  font-size: 1.375rem;
+}
+
+/* line 201, ../scss/foundation/components/_type.scss */
+h4 {
+  font-size: 1.125rem;
+}
+
+/* line 202, ../scss/foundation/components/_type.scss */
+h5 {
+  font-size: 1.125rem;
+}
+
+/* line 203, ../scss/foundation/components/_type.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 205, ../scss/foundation/components/_type.scss */
+.subheader {
+  line-height: 1.4;
+  color: #6f6f6f;
+  font-weight: 300;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 207, ../scss/foundation/components/_type.scss */
+hr {
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25rem 0 1.1875rem;
+  height: 0;
+}
+
+/* Helpful Typography Defaults */
+/* line 217, ../scss/foundation/components/_type.scss */
+em,
+i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 223, ../scss/foundation/components/_type.scss */
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 228, ../scss/foundation/components/_type.scss */
+small {
+  font-size: 60%;
+  line-height: inherit;
+}
+
+/* line 233, ../scss/foundation/components/_type.scss */
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: bold;
+  color: #bd260d;
+}
+
+/* Lists */
+/* line 242, ../scss/foundation/components/_type.scss */
+ul,
+ol,
+dl {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+/* line 250, ../scss/foundation/components/_type.scss */
+ul {
+  margin-left: 1.1rem;
+}
+/* line 252, ../scss/foundation/components/_type.scss */
+ul.no-bullet {
+  margin-left: 0;
+}
+/* line 256, ../scss/foundation/components/_type.scss */
+ul.no-bullet li ul,
+ul.no-bullet li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* Unordered Lists */
+/* line 269, ../scss/foundation/components/_type.scss */
+ul li ul,
+ul li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  /* Override nested font-size change */
+}
+/* line 278, ../scss/foundation/components/_type.scss */
+ul.square li ul, ul.circle li ul, ul.disc li ul {
+  list-style: inherit;
+}
+/* line 281, ../scss/foundation/components/_type.scss */
+ul.square {
+  list-style-type: square;
+  margin-left: 1.1rem;
+}
+/* line 282, ../scss/foundation/components/_type.scss */
+ul.circle {
+  list-style-type: circle;
+  margin-left: 1.1rem;
+}
+/* line 283, ../scss/foundation/components/_type.scss */
+ul.disc {
+  list-style-type: disc;
+  margin-left: 1.1rem;
+}
+/* line 284, ../scss/foundation/components/_type.scss */
+ul.no-bullet {
+  list-style: none;
+}
+
+/* Ordered Lists */
+/* line 288, ../scss/foundation/components/_type.scss */
+ol {
+  margin-left: 1.4rem;
+}
+/* line 292, ../scss/foundation/components/_type.scss */
+ol li ul,
+ol li ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+/* Definition Lists */
+/* line 301, ../scss/foundation/components/_type.scss */
+dl dt {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+/* line 305, ../scss/foundation/components/_type.scss */
+dl dd {
+  margin-bottom: 0.75rem;
+}
+
+/* Abbreviations */
+/* line 310, ../scss/found

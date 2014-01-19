@@ -1,0 +1,21 @@
+
+.AdminDataTable {
+    line-height: 1.3em;
+    font-size: 0.95em;
+}
+.AdminDataTable thead tr th {
+    padding: 10px;
+}
+.AdminDataTable tbody tr td {
+    padding: 10px;
+}
+.AdminDataTable tbody tr:hover td {
+}
+
+a.icon:hover { background-color: #fff; }
+.ui-state-update { color: red; }
+.ui-state-installed { color: #4db101; }
+
+.mm_mname { white-space: nowrap; }
+
+.mm_notfiltered{display: none;}
