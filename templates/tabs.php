@@ -43,7 +43,9 @@ include("./includes/footscripts.inc");
 <!-- add any scripts like foundation plugins specific to this page here -->
 
 <script src="<?php echo $config->urls->templates?>js/foundation/foundation.tab.js"></script>
-
+    <script>
+      $(document).foundation();
+    </script>
 <?php
 /* Wrapping up the page */
 include("./includes/foot.inc"); 

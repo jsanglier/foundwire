@@ -4,7 +4,7 @@
 
 ?>
 
-    <script src="<?php echo $config->urls->templates?>js/jquery-1.10.12.min.js"></script>
-    <script src="<?php echo $config->urls->templates?>js/vendor/fastclick.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.11/fastclick.js"></script>
     <script src="<?php echo $config->urls->templates?>js/foundation/foundation.js"></script>
     <script src="<?php echo $config->urls->templates?>js/foundation/foundation.topbar.js"></script>

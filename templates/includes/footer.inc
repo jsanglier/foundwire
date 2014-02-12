@@ -16,8 +16,8 @@
         echo $pages->get("/content/settings/")->site_title;
       }
       ?>
-      <p><a class="lightlink" href="htp://www.processwire.com">ProcessWire 2.3</a> © 2014 by Ryan Cramer Design, LLC<br>
-      <a class="lightlink" href="http://foundation.zurb.com/">Foundation 5</a> © 1998‐2013 ZURB, Inc. All rights reserved.</p>
+      <p><a class="lightlink" href="http://processwire.com">ProcessWire 2.4</a> © 2014 by Ryan Cramer Design, LLC<br>
+      <a class="lightlink" href="http://foundation.zurb.com/">Foundation 5.1.1</a> © 1998‐2014 ZURB, Inc. All rights reserved.</p>
 		</div>
 
 		<div class="medium-4 columns">
