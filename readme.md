@@ -3,7 +3,7 @@ Foundwire Demo Profile
 
 Version 0.3
 
-A Profile for the ProcessWire CMS using Foundation 5.1.1
+A Profile for the ProcessWire CMS using Foundation 5.2.0
 --------------------------------------------------------
 
 NOTE: This was built with PW 2.4
@@ -66,3 +66,8 @@ Don't forget the TinyMCE one!
 
 
 Joss
+
+CHANGELOG
+---------
+
+v 0.3 - updated to Foundation 5.2
