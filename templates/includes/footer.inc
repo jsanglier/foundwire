@@ -17,7 +17,7 @@
       }
       ?>
       <p><a class="lightlink" href="http://processwire.com">ProcessWire 2.4</a> © 2014 by Ryan Cramer Design, LLC<br>
-      <a class="lightlink" href="http://foundation.zurb.com/">Foundation 5.1.1</a> © 1998‐2014 ZURB, Inc. All rights reserved.</p>
+      <a class="lightlink" href="http://foundation.zurb.com/">Foundation 5.2.0</a> © 1998‐2014 ZURB, Inc. All rights reserved.</p>
 		</div>
 
 		<div class="medium-4 columns">

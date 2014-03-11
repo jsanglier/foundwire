@@ -52,7 +52,7 @@ include("./includes/footscripts.inc");
 <script src="<?php echo $config->urls->templates?>js/foundation/foundation.orbit.js"></script>
 <script src="<?php echo $config->urls->templates?>js/foundation/foundation.dropdown.js"></script>
 
-<!-- some bits for orbit -->
+<!-- some bits for orbit plus initializing foundation -->
 <script type="text/javascript">
 $(document).foundation({
   orbit: {

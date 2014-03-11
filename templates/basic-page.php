@@ -33,7 +33,9 @@ include("./includes/footscripts.inc");
 ?>
 
 <!-- add any scripts like foundation plugins specific to this page here -->
-
+    <script>
+      $(document).foundation();
+    </script>
 <?php
 /* Wrapping up the page */
 include("./includes/foot.inc"); 
