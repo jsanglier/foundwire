@@ -20,7 +20,7 @@ include("./includes/functions.inc");
     <!-- This is for any site specific or overrides -->
     <link rel="stylesheet" href="<?php echo $config->urls->templates?>css/site.css" />
 
-    <script src="<?php echo $config->urls->templates?>js/modernizr.js"></script>
+    <script src="<?php echo $config->urls->templates?>js/vendor/modernizr.js"></script>
   </head>
   <body>
 
@@ -49,6 +49,9 @@ include("./includes/functions.inc");
   </ul>
   <section class="top-bar-section">
   <ul class="right">
+
+  <!-- NOTE: This search is for example only and is not linked to PW search!! -->
+  
     <li class="has-form searchform">
       <div class="row collapse">
         <div class="large-8 small-9 columns">

@@ -4,7 +4,7 @@
   Foundation.libs.interchange = {
     name : 'interchange',
 
-    version : '5.2.0',
+    version : '5.2.2',
 
     cache : {},
 
@@ -57,14 +57,10 @@
 
           if (last_path == path) return;
 
-
-          var regex = "/^.(\.jpg|\.jpeg|\.png|\.gif|\.tiff|\.bmp)\??|#?./";
-
-          if (new RegExp(regex,'i').test(path)){
-
-              $(el).css('background-image', 'url('+path+')');
-              el.data('interchange-last-path', path);
-              return trigger(path);
+          if (/\.(gif|jpg|jpeg|tiff|png)([?#].*)?/i.test(path)) {
+            $(el).css('background-image', 'url('+path+')');
+            el.data('interchange-last-path', path);
+            return trigger(path);
           }
 
           return $.get(path, function (response) {
@@ -332,4 +328,4 @@
 
   };
 
-}(jQuery, this, this.document));
+}(jQuery, window, window.document));
