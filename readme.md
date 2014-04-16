@@ -1,14 +1,14 @@
 Foundwire Demo Profile
 ======================
 
-Version 0.3
+Version 0.4
 
-A Profile for the ProcessWire CMS using Foundation 5.2.0
+A Profile for the ProcessWire CMS using Foundation 5.2.2
 --------------------------------------------------------
 
 NOTE: This was built with PW 2.4
 
-This demo profile uses the Foundation 5.2.0 framework from Zurb
+This demo profile uses the Foundation 5.2.2 framework from Zurb
 
 It demonstrates how ProcessWire can work with Foundation and shows a small selection of the Foundation components:
 
@@ -69,5 +69,9 @@ Joss
 
 CHANGELOG
 ---------
+
+v 0.4
+updated to Foundation 5.2.2
+Cleaned out some historical rubbish
 
 v 0.3 - updated to Foundation 5.2
